@@ -10,7 +10,8 @@
       }
     },
     "name": "Summon Knight",
-    "Staple": "yes"
+    "Staple": "yes",
+    "category": "Staple"
   },
   "PD02": {
     "id": "PD02",
@@ -23,7 +24,8 @@
       }
     },
     "name": "Fireball",
-    "Staple": "yes"
+    "Staple": "yes",
+    "category": "Staple"
   },
   "PD03": {
     "id": "PD03",
