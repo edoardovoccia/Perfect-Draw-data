@@ -12,45 +12,25 @@
     "cardBack": "https://i.imgur.com/m5XiqFX.jpeg"
   },
   "deckBuilding": {
-    "categories": [
-      "Staple",
-      "Main Deck"
-    ],
     "mainFilters": [
-      "Staple"
+      ""
     ],
     "formats": [
       {
         "title": "Standard",
-        "gameplay": "Classic",
+        "gameplay": "Standard",
         "customCategories": [
-          "Staple",
+          "Staples",
           "Main Deck"
-        ],
-        "sections": [
-          {
-            "title": "Staple",
-            "categories": [
-              "Staple"
-            ],
-            "count": 0
-          },
-          {
-            "title": "Main Deck",
-            "categories": [
-              "Main Deck"
-            ],
-            "count": 0
-          }
         ]
       }
     ]
   },
   "gameplay": {
-    "Classic": {
+    "Standard": {
       "mulligan": {
         "info": "",
-        "startingHandSize": 2,
+        "startingHandSize": "2",
         "drawNewHand": false,
         "putSelectionAtBottom": false,
         "drawNewSelectedCards": false
@@ -59,7 +39,7 @@
         "drawOnStart": false,
         "sharedTurn": false,
         "firstPlayerTokenName": "",
-        "drawPerTurn": 0
+        "drawPerTurn": "0"
       },
       "defaultNotes": "",
       "tokens": [
@@ -83,7 +63,7 @@
         }
       ],
       "countersStartingValues": [
-        1
+        "1"
       ],
       "hideFacedDownCards": false,
       "sections": {
@@ -93,19 +73,13 @@
         "layout": {
           "direction": "row",
           "isSymetricalForOpponents": false,
-          "content": [
-            "Battlefield"
-          ]
+          "content": []
         },
         "categoriesAlreadyOnBoard": [
           "Staple"
         ],
-        "autoPlayFromHand": {
-          "Staple": "Battlefield"
-        },
-        "autoPlayFromStack": {
-          "Staple": "Battlefield"
-        },
+        "autoPlayFromHand": {},
+        "autoPlayFromStack": {},
         "sectionsDict": {
           "Battlefield": {
             "title": "Battlefield",
@@ -113,7 +87,7 @@
             "height": "BIG",
             "alignment": "CENTER",
             "opponentAlignment": false,
-            "noAutoPayTo": true,
+            "noAutoPayTo": "true",
             "isHorizontalAllowed": false,
             "displayedTitle": "",
             "enterTapped": false,
