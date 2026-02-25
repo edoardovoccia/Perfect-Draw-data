@@ -5,20 +5,18 @@
     "backgrounds": [],
     "decksUrl": ""
   },
-  "customHelp": "",
-  "cardRotation": 45,
+  "customHelp": "Benvenuti in Perfect Draw!",
+  "cardRotation": 90,
   "cards": {
     "dataUrl": "https://raw.githubusercontent.com/edoardovoccia/Perfect-Draw-data/refs/heads/main/Perfect%20Draw%20Staples.json",
     "cardBack": "https://i.imgur.com/m5XiqFX.jpeg"
   },
   "deckBuilding": {
-    "mainFilters": [
-      ""
-    ],
+    "mainFilters": [],
     "formats": [
       {
-        "title": "",
-        "gameplay": "",
+        "title": "Standard",
+        "gameplay": "Classic",
         "customCategories": [
           "Staples",
           "Main Deck"
@@ -29,73 +27,48 @@
   "gameplay": {
     "Classic": {
       "mulligan": {
-        "info": "",
-        "startingHandSize": "2",
+        "info": "Pesca 2 carte",
+        "startingHandSize": 2,
         "drawNewHand": false,
         "putSelectionAtBottom": false,
         "drawNewSelectedCards": false
       },
       "newTurn": {
-        "drawOnStart": false,
+        "drawOnStart": true,
         "sharedTurn": false,
         "firstPlayerTokenName": "",
-        "drawPerTurn": "0"
+        "drawPerTurn": 1
       },
-      "defaultNotes": "",
       "tokens": [
         {
           "name": "Weak Warrior",
-          "image": "https://i.imgur.com/orojBLO.png",
-          "isUnique": false,
-          "leavesAtEndOfTurn": false
+          "image": "https://i.imgur.com/orojBLO.png"
         },
         {
           "name": "Normal Warrior",
-          "image": "https://i.imgur.com/C7Kggmx.jpeg",
-          "isUnique": false,
-          "leavesAtEndOfTurn": false
+          "image": "https://i.imgur.com/C7Kggmx.jpeg"
         },
         {
           "name": "Strong Warrior",
-          "image": "https://i.imgur.com/HHWkmR7.png",
-          "isUnique": false,
-          "leavesAtEndOfTurn": false
+          "image": "https://i.imgur.com/HHWkmR7.png"
         }
       ],
-      "countersStartingValues": [
-        "1"
-      ],
+      "countersStartingValues": [1],
       "hideFacedDownCards": false,
       "sections": {
-        "customSections": [
-          "Battlefield"
-        ],
+        "customSections": ["Board"],
         "layout": {
           "direction": "row",
-          "isSymetricalForOpponents": false,
-          "content": []
+          "isSymetricalForOpponents": true,
+          "content": ["Board"]
         },
-        "categoriesAlreadyOnBoard": [
-          "Staples"
-        ],
-        "autoPlayFromHand": {},
-        "autoPlayFromStack": {},
         "sectionsDict": {
           "Board": {
-            "title": "Board",
+            "title": "Campo di Battaglia",
             "isHidden": "no",
             "height": "BIG",
             "alignment": "CENTER",
-            "opponentAlignment": false,
-            "noAutoPayTo": "true",
-            "isHorizontalAllowed": false,
-            "displayedTitle": "",
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "noQuickActions": false
+            "noAutoPayTo": false
           }
         }
       }
