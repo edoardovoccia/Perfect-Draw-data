@@ -12,12 +12,17 @@
     "cardBack": "https://i.imgur.com/m5XiqFX.jpeg"
   },
   "deckBuilding": {
-    "mainFilters": ["Staple"],
+    "mainFilters": [
+      "Staple"
+    ],
     "formats": [
       {
         "title": "Standard",
         "gameplay": "Classic",
-        "customCategories": ["Staple", "Main Deck"]
+        "customCategories": [
+          "Staple",
+          "Main Deck"
+        ]
       }
     ]
   },
@@ -57,18 +62,30 @@
           "leavesAtEndOfTurn": false
         }
       ],
-      "countersStartingValues": [1],
+      "countersStartingValues": [
+        1
+      ],
       "hideFacedDownCards": false,
       "sections": {
-        "customSections": ["Battlefield"],
+        "customSections": [
+          "Battlefield"
+        ],
         "layout": {
           "direction": "row",
           "isSymetricalForOpponents": false,
-          "content": ["Battlefield"]
+          "content": [
+            "Battlefield"
+          ]
         },
-        "categoriesAlreadyOnBoard": ["Staple"],
-        "autoPlayFromHand": {},
-        "autoPlayFromStack": {},
+        "categoriesAlreadyOnBoard": [
+          "Staple"
+        ],
+        "autoPlayFromHand": {
+          "Staple": "Battlefield"
+        },
+        "autoPlayFromStack": {
+          "Staple": "Battlefield"
+        },
         "sectionsDict": {
           "Battlefield": {
             "title": "Battlefield",
