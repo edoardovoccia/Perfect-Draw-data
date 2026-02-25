@@ -1,50 +1,158 @@
 {
   "PD01": {
     "id": "PD01",
+    "name": "Summon Knight",
+    "type": "Staples",
+    "deck": "Staples",
     "face": {
       "front": {
         "name": "Summon Knight",
-        "type": "Staples",
+        "type": "Staple",
         "image": "https://i.imgur.com/srKPUdT.jpeg"
       }
-    },
-    "name": "Summon Knight",
-    "type": "Staples"
+    }
   },
   "PD02": {
     "id": "PD02",
+    "name": "Fireball",
+    "type": "Staples",
+    "deck": "Staples",
     "face": {
       "front": {
         "name": "Fireball",
-        "type": "Staples",
+        "type": "Staple",
         "image": "https://i.imgur.com/U0OBckn.jpeg"
       }
-    },
-    "name": "Fireball",
-    "type": "Staples"
+    }
   },
   "PD03": {
     "id": "PD03",
+    "name": "Quick Thinking",
+    "type": "Staples",
+    "deck": "Staples",
     "face": {
       "front": {
         "name": "Quick Thinking",
-        "type": "Staples",
+        "type": "Staple",
         "image": "https://i.imgur.com/3QewEm1.jpeg"
       }
-    },
-    "name": "Quick Thinking",
-    "type": "Staples"
+    }
   },
   "PD04": {
     "id": "PD04",
+    "name": "Summon Dragon",
+    "type": "Staples",
+    "deck": "Staples",
     "face": {
       "front": {
         "name": "Summon Dragon",
-        "type": "Staples",
+        "type": "Staple",
         "image": "https://i.imgur.com/3pgoWht.jpeg"
       }
-    },
-    "name": "Summon Dragon",
-    "type": "Staples"
+    }
+  },
+  "PD05": {
+    "id": "PD05",
+    "name": "Summon Army",
+    "type": "Staples",
+    "deck": "Staples",
+    "face": {
+      "front": {
+        "name": "Summon Army",
+        "type": "Staple",
+        "image": "https://i.imgur.com/vecZaVp.jpeg"
+      }
+    }
+  },
+  "PD06": {
+    "id": "PD06",
+    "name": "Salve",
+    "type": "Staples",
+    "deck": "Staples",
+    "face": {
+      "front": {
+        "name": "Salve",
+        "type": "Staple",
+        "image": "https://i.imgur.com/DZpg3NJ.jpeg"
+      }
+    }
+  },
+  "PD07": {
+    "id": "PD07",
+    "name": "Reconsider",
+    "type": "Staples",
+    "deck": "Staples",
+    "face": {
+      "front": {
+        "name": "Reconsider",
+        "type": "Staple",
+        "image": "https://i.imgur.com/Ohrg8pF.jpeg"
+      }
+    }
+  },
+  "PD08": {
+    "id": "PD08",
+    "name": "Destroy",
+    "type": "Staples",
+    "deck": "Staples",
+    "face": {
+      "front": {
+        "name": "Destroy",
+        "type": "Staple",
+        "image": "https://i.imgur.com/iTJb5NX.jpeg"
+      }
+    }
+  },
+  "PD09": {
+    "id": "PD09",
+    "name": "Double Strike",
+    "type": "Staples",
+    "deck": "Staples",
+    "face": {
+      "front": {
+        "name": "Double Strike",
+        "type": "Staple",
+        "image": "https://i.imgur.com/RlOBfNh.jpeg"
+      }
+    }
+  },
+  "PD10": {
+    "id": "PD10",
+    "name": "Magic Weapon",
+    "type": "Staples",
+    "deck": "Staples",
+    "face": {
+      "front": {
+        "name": "Magic Weapon",
+        "type": "Staple",
+        "image": "https://i.imgur.com/y0OgQLi.jpeg"
+      }
+    }
+  },
+  "PD11": {
+    "id": "PD11",
+    "name": "Silence",
+    "type": "Staples",
+    "deck": "Staples",
+    "face": {
+      "front": {
+        "name": "Silence",
+        "type": "Staple",
+        "image": "https://i.imgur.com/rWqydua.jpeg"
+      }
+    }
+  },
+  "PD12": {
+    "id": "PD12",
+    "name": "Augury",
+    "type": "Staples",
+    "deck": "Staples",
+    "face": {
+      "front": {
+        "name": "Augury",
+        "type": "Staple",
+        "image": "https://i.imgur.com/ZMokOQp.jpeg"
+      }
+    }
   }
 }
