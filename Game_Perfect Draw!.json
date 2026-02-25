@@ -12,13 +12,15 @@
     "cardBack": "https://i.imgur.com/m5XiqFX.jpeg"
   },
   "deckBuilding": {
-    "mainFilters": [],
+    "mainFilters": [
+      ""
+    ],
     "formats": [
       {
-        "title": "Standard",
-        "gameplay": "Classic",
+        "title": "",
+        "gameplay": "",
         "customCategories": [
-          "Staples",
+          "Staple",
           "Main Deck"
         ]
       }
@@ -28,7 +30,7 @@
     "Classic": {
       "mulligan": {
         "info": "",
-        "startingHandSize": 2,
+        "startingHandSize": "2",
         "drawNewHand": false,
         "putSelectionAtBottom": false,
         "drawNewSelectedCards": false
@@ -37,7 +39,7 @@
         "drawOnStart": false,
         "sharedTurn": false,
         "firstPlayerTokenName": "",
-        "drawPerTurn": 0
+        "drawPerTurn": "0"
       },
       "defaultNotes": "",
       "tokens": [
@@ -60,26 +62,32 @@
           "leavesAtEndOfTurn": false
         }
       ],
-      "countersStartingValues": [1],
+      "countersStartingValues": [
+        "1"
+      ],
       "hideFacedDownCards": false,
       "sections": {
-        "customSections": ["Board"],
+        "customSections": [
+          "Battlefield"
+        ],
         "layout": {
           "direction": "row",
-          "isSymetricalForOpponents": true,
-          "content": ["Board"]
+          "isSymetricalForOpponents": false,
+          "content": []
         },
-        "categoriesAlreadyOnBoard": ["Staples"],
+        "categoriesAlreadyOnBoard": [
+          "Staple"
+        ],
         "autoPlayFromHand": {},
         "autoPlayFromStack": {},
         "sectionsDict": {
-          "Board": {
+          "Battlefield": {
             "title": "Battlefield",
             "isHidden": "no",
             "height": "BIG",
             "alignment": "CENTER",
             "opponentAlignment": false,
-            "noAutoPayTo": true,
+            "noAutoPayTo": "true",
             "isHorizontalAllowed": false,
             "displayedTitle": "",
             "enterTapped": false,
