@@ -4,168 +4,155 @@
     "isToken": false,
     "face": {
       "front": {
-        "name": "",
+        "name": "Summon Knight",
         "type": "Staple",
-        "cost": 0,
-        "image": "https://i.imgur.com/srKPUdT.jpeg",
-        "isHorizontal": false
+        "image": "https://i.imgur.com/srKPUdT.jpeg"
       }
     },
     "name": "Summon Knight",
-    "type": false,
-    "cost": 0,
-    "Staples": "",
-    "Deck": ""
+    "Staple": "yes"
   },
   "PD02": {
     "id": "PD02",
     "isToken": false,
     "face": {
       "front": {
-        "name": "",
+        "name": "Fireball",
         "type": "Staple",
-        "cost": 0,
-        "image": "https://i.imgur.com/U0OBckn.jpeg",
-        "isHorizontal": false
+        "image": "https://i.imgur.com/U0OBckn.jpeg"
       }
     },
     "name": "Fireball",
-    "type": false,
-    "cost": 0,
-    "Staples": "",
-    "Deck": ""
+    "Staple": "yes"
   },
   "PD03": {
     "id": "PD03",
     "isToken": false,
     "face": {
       "front": {
-        "name": "",
+        "name": "Quick Thinking",
         "type": "Staple",
-        "cost": 0,
-        "image": "https://i.imgur.com/3QewEm1.jpeg",
-        "isHorizontal": false
+        "image": "https://i.imgur.com/3QewEm1.jpeg"
       }
     },
     "name": "Quick Thinking",
-    "type": false,
-    "cost": 0,
-    "Staples": "",
-    "Deck": ""
+    "Staple": "yes"
   },
   "PD04": {
     "id": "PD04",
     "isToken": false,
     "face": {
       "front": {
-        "name": "",
+        "name": "Summon Dragon",
         "type": "Staple",
-        "cost": 0,
-        "image": "https://i.imgur.com/3pgoWht.jpeg",
-        "isHorizontal": false
+        "image": "https://i.imgur.com/3pgoWht.jpeg"
       }
     },
     "name": "Summon Dragon",
-    "type": false,
-    "cost": 0,
-    "Staples": "",
-    "Deck": ""
+    "Staple": "yes"
   },
   "PD05": {
     "id": "PD05",
     "isToken": false,
     "face": {
       "front": {
-        "name": "",
+        "name": "Summon Army",
         "type": "Staple",
-        "cost": 0,
-        "image": "https://i.imgur.com/vecZaVp.jpeg",
-        "isHorizontal": false
+        "image": "https://i.imgur.com/vecZaVp.jpeg"
       }
     },
     "name": "Summon Army",
-    "type": false,
-    "cost": 0,
-    "Staples": "",
-    "Deck": ""
+    "Staple": "yes"
   },
   "PD06": {
     "id": "PD06",
     "isToken": false,
     "face": {
       "front": {
-        "name": "",
+        "name": "Salve",
         "type": "Staple",
-        "cost": 0,
-        "image": "https://i.imgur.com/DZpg3NJ.jpeg",
-        "isHorizontal": false
+        "image": "https://i.imgur.com/DZpg3NJ.jpeg"
       }
     },
     "name": "Salve",
-    "type": false,
-    "cost": 0,
-    "Staples": "",
-    "Deck": ""
+    "Staple": "yes"
   },
   "PD07": {
     "id": "PD07",
     "isToken": false,
     "face": {
       "front": {
-        "name": "",
+        "name": "Reconsider",
         "type": "Staple",
-        "cost": 0,
-        "image": "https://i.imgur.com/Ohrg8pF.jpeg",
-        "isHorizontal": false
+        "image": "https://i.imgur.com/Ohrg8pF.jpeg"
       }
     },
     "name": "Reconsider",
-    "type": false,
-    "cost": 0,
-    "Staples": "",
-    "Deck": ""
+    "Staple": "yes"
   },
   "PD08": {
     "id": "PD08",
     "isToken": false,
     "face": {
       "front": {
-        "name": "",
+        "name": "Destroy",
         "type": "Staple",
-        "cost": 0,
-        "image": "https://i.imgur.com/iTJb5NX.jpeg",
-        "isHorizontal": false
+        "image": "https://i.imgur.com/iTJb5NX.jpeg"
       }
     },
     "name": "Destroy",
-    "type": false,
-    "cost": 0,
-    "Staples": "",
-    "Deck": ""
+    "Staple": "yes"
   },
   "PD09": {
     "id": "PD09",
     "isToken": false,
     "face": {
       "front": {
-        "name": "",
+        "name": "Double Strike",
         "type": "Staple",
-        "cost": 0,
-        "image": "https://i.imgur.com/RlOBfNh.jpeg",
-        "isHorizontal": false
+        "image": "https://i.imgur.com/RlOBfNh.jpeg"
       }
     },
     "name": "Double Strike",
-    "type": false,
-    "cost": 0,
-    "Staples": "",
-    "Deck": ""
+    "Staple": "yes"
   },
   "PD10": {
     "id": "PD10",
     "isToken": false,
     "face": {
       "front": {
-        "name": "",
+        "name": "Magic Weapon",
         "type": "Staple",
-        "cost":
+        "image": "https://i.imgur.com/y0OgQLi.jpeg"
+      }
+    },
+    "name": "Magic Weapon",
+    "Staple": "yes"
+  },
+  "PD11": {
+    "id": "PD11",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Silence",
+        "type": "Staple",
+        "image": "https://i.imgur.com/rWqydua.jpeg"
+      }
+    },
+    "name": "Silence",
+    "Staple": "yes"
+  },
+  "PD12": {
+    "id": "PD12",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Augury",
+        "type": "Staple",
+        "image": "https://i.imgur.com/ZMokOQp.jpeg"
+      }
+    },
+    "name": "Augury",
+    "Staple": "yes"
+  }
+}
