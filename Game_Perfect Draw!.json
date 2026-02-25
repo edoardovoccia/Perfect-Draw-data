@@ -20,8 +20,9 @@
         "title": "Standard",
         "gameplay": "Standard",
         "customCategories": [
-          "Staples",
-          "Main Deck"
+          "Staple",
+          "Main Deck",
+          "Created Card"
         ]
       }
     ]
@@ -76,7 +77,8 @@
           "content": []
         },
         "categoriesAlreadyOnBoard": [
-          "Staple"
+          "Staple",
+          "Created Card"
         ],
         "autoPlayFromHand": {},
         "autoPlayFromStack": {},
