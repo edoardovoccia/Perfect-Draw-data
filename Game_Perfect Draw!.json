@@ -12,6 +12,10 @@
     "cardBack": "https://i.imgur.com/m5XiqFX.jpeg"
   },
   "deckBuilding": {
+    "categories": [
+      "Staple",
+      "Main Deck"
+    ],
     "mainFilters": [
       "Staple"
     ],
