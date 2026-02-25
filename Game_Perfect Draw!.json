@@ -1,104 +1,104 @@
 {
-  "name": "Perfect Draw!",
-  "menuBackgroundImage": "https://img.itch.zone/aW1nLzE3MjYxMTQ3LnBuZw==/original/p1T42W.png",
-  "defaultRessources": {
-    "backgrounds": [],
-    "decksUrl": ""
-  },
-  "customHelp": "",
-  "cardRotation": 45,
-  "cards": {
-    "dataUrl": "https://raw.githubusercontent.com/edoardovoccia/Perfect-Draw-data/refs/heads/main/Perfect%20Draw%20Staples.json",
-    "cardBack": "https://i.imgur.com/m5XiqFX.jpeg"
-  },
-  "deckBuilding": {
-    "mainFilters": [
-      ""
-    ],
-    "formats": [
-      {
-        "title": "",
-        "gameplay": "",
-        "customCategories": [
-          "Staples",
-          "Main Deck"
-        ]
-      }
-    ]
-  },
-  "gameplay": {
-    "Classic": {
-      "mulligan": {
-        "info": "",
-        "startingHandSize": "2",
-        "drawNewHand": false,
-        "putSelectionAtBottom": false,
-        "drawNewSelectedCards": false
-      },
-      "newTurn": {
-        "drawOnStart": false,
-        "sharedTurn": false,
-        "firstPlayerTokenName": "",
-        "drawPerTurn": "0"
-      },
-      "defaultNotes": "",
-      "tokens": [
-        {
-          "name": "Weak Warrior",
-          "image": "https://i.imgur.com/orojBLO.png",
-          "isUnique": false,
-          "leavesAtEndOfTurn": false
-        },
-        {
-          "name": "Normal Warrior",
-          "image": "https://i.imgur.com/C7Kggmx.jpeg",
-          "isUnique": false,
-          "leavesAtEndOfTurn": false
-        },
-        {
-          "name": "Strong Warrior",
-          "image": "https://i.imgur.com/HHWkmR7.png",
-          "isUnique": false,
-          "leavesAtEndOfTurn": false
-        }
-      ],
-      "countersStartingValues": [
-        "1"
-      ],
-      "hideFacedDownCards": false,
-      "sections": {
-        "customSections": [
-          "Battlefield"
-        ],
-        "layout": {
-          "direction": "row",
-          "isSymetricalForOpponents": false,
-          "content": []
-        },
-        "categoriesAlreadyOnBoard": [
-          "Staples"
-        ],
-        "autoPlayFromHand": {},
-        "autoPlayFromStack": {},
-        "sectionsDict": {
-          "Board": {
-            "title": "Board",
-            "isHidden": "no",
-            "height": "BIG",
-            "alignment": "CENTER",
-            "opponentAlignment": false,
-            "noAutoPayTo": "true",
-            "isHorizontalAllowed": false,
-            "displayedTitle": "",
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "noQuickActions": false
-          }
-        }
-      }
-    }
-  }
+  "name": "Perfect Draw!",
+  "menuBackgroundImage": "https://img.itch.zone/aW1nLzE3MjYxMTQ3LnBuZw==/original/p1T42W.png",
+  "defaultRessources": {
+    "backgrounds": [],
+    "decksUrl": ""
+  },
+  "customHelp": "",
+  "cardRotation": 45,
+  "cards": {
+    "dataUrl": "https://raw.githubusercontent.com/edoardovoccia/Perfect-Draw-data/refs/heads/main/Perfect%20Draw%20Staples.json",
+    "cardBack": "https://i.imgur.com/m5XiqFX.jpeg"
+  },
+  "deckBuilding": {
+    "mainFilters": [
+      ""
+    ],
+    "formats": [
+      {
+        "title": "",
+        "gameplay": "Classic",
+        "customCategories": [
+          "Staples",
+          "Main Deck"
+        ]
+      }
+    ]
+  },
+  "gameplay": {
+    "Classic": {
+      "mulligan": {
+        "info": "",
+        "startingHandSize": "2",
+        "drawNewHand": false,
+        "putSelectionAtBottom": false,
+        "drawNewSelectedCards": false
+      },
+      "newTurn": {
+        "drawOnStart": false,
+        "sharedTurn": false,
+        "firstPlayerTokenName": "",
+        "drawPerTurn": "0"
+      },
+      "defaultNotes": "",
+      "tokens": [
+        {
+          "name": "Weak Warrior",
+          "image": "https://i.imgur.com/orojBLO.png",
+          "isUnique": false,
+          "leavesAtEndOfTurn": false
+        },
+        {
+          "name": "Normal Warrior",
+          "image": "https://i.imgur.com/C7Kggmx.jpeg",
+          "isUnique": false,
+          "leavesAtEndOfTurn": false
+        },
+        {
+          "name": "Strong Warrior",
+          "image": "https://i.imgur.com/HHWkmR7.png",
+          "isUnique": false,
+          "leavesAtEndOfTurn": false
+        }
+      ],
+      "countersStartingValues": [
+        "1"
+      ],
+      "hideFacedDownCards": false,
+      "sections": {
+        "customSections": [
+          "Battlefield"
+        ],
+        "layout": {
+          "direction": "row",
+          "isSymetricalForOpponents": false,
+          "content": []
+        },
+        "categoriesAlreadyOnBoard": [
+          "Staples"
+        ],
+        "autoPlayFromHand": {},
+        "autoPlayFromStack": {},
+        "sectionsDict": {
+          "Board": {
+            "title": "Board",
+            "isHidden": "no",
+            "height": "BIG",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": "true",
+            "isHorizontalAllowed": false,
+            "displayedTitle": "",
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "noQuickActions": false
+          }
+        }
+      }
+    }
+  }
 }
