@@ -8,7 +8,7 @@
   "customHelp": "",
   "cardRotation": 45,
   "cards": {
-    "dataUrl": "https://raw.githubusercontent.com/edoardovoccia/Perfect-Draw-data/refs/heads/main/Perfect%20Draw%20Staples.json"
+    "dataUrl": "https://raw.githubusercontent.com/edoardovoccia/Perfect-Draw-data/refs/heads/main/Perfect%20Draw%20Staples.json",
     "cardBack": "https://i.imgur.com/m5XiqFX.jpeg"
   },
   "deckBuilding": {
@@ -17,8 +17,8 @@
     ],
     "formats": [
       {
-        "title": "",
-        "gameplay": "",
+        "title": "Standard",
+        "gameplay": "Classic",
         "customCategories": [
           "Staple",
           "Main Deck"
@@ -30,7 +30,7 @@
     "Classic": {
       "mulligan": {
         "info": "",
-        "startingHandSize": "2",
+        "startingHandSize": 2,
         "drawNewHand": false,
         "putSelectionAtBottom": false,
         "drawNewSelectedCards": false
@@ -39,7 +39,7 @@
         "drawOnStart": false,
         "sharedTurn": false,
         "firstPlayerTokenName": "",
-        "drawPerTurn": "0"
+        "drawPerTurn": 0
       },
       "defaultNotes": "",
       "tokens": [
@@ -63,7 +63,7 @@
         }
       ],
       "countersStartingValues": [
-        "1"
+        1
       ],
       "hideFacedDownCards": false,
       "sections": {
@@ -73,7 +73,9 @@
         "layout": {
           "direction": "row",
           "isSymetricalForOpponents": false,
-          "content": []
+          "content": [
+            "Battlefield"
+          ]
         },
         "categoriesAlreadyOnBoard": [
           "Staple"
@@ -87,7 +89,7 @@
             "height": "BIG",
             "alignment": "CENTER",
             "opponentAlignment": false,
-            "noAutoPayTo": "true",
+            "noAutoPayTo": true,
             "isHorizontalAllowed": false,
             "displayedTitle": "",
             "enterTapped": false,
