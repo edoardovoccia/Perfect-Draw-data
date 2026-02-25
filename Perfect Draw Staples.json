@@ -10,6 +10,7 @@
       }
     },
     "name": "Summon Knight",
+    "type": "Staple",
     "Staple": "yes",
     "category": "Staple"
   },
@@ -24,6 +25,7 @@
       }
     },
     "name": "Fireball",
+    "type": "Staple",
     "Staple": "yes",
     "category": "Staple"
   },
@@ -38,7 +40,9 @@
       }
     },
     "name": "Quick Thinking",
-    "Staple": "yes"
+    "type": "Staple",
+    "Staple": "yes",
+    "category": "Staple"
   },
   "PD04": {
     "id": "PD04",
@@ -51,7 +55,9 @@
       }
     },
     "name": "Summon Dragon",
-    "Staple": "yes"
+    "type": "Staple",
+    "Staple": "yes",
+    "category": "Staple"
   },
   "PD05": {
     "id": "PD05",
@@ -64,7 +70,9 @@
       }
     },
     "name": "Summon Army",
-    "Staple": "yes"
+    "type": "Staple",
+    "Staple": "yes",
+    "category": "Staple"
   },
   "PD06": {
     "id": "PD06",
@@ -77,7 +85,9 @@
       }
     },
     "name": "Salve",
-    "Staple": "yes"
+    "type": "Staple",
+    "Staple": "yes",
+    "category": "Staple"
   },
   "PD07": {
     "id": "PD07",
@@ -90,7 +100,9 @@
       }
     },
     "name": "Reconsider",
-    "Staple": "yes"
+    "type": "Staple",
+    "Staple": "yes",
+    "category": "Staple"
   },
   "PD08": {
     "id": "PD08",
@@ -103,7 +115,9 @@
       }
     },
     "name": "Destroy",
-    "Staple": "yes"
+    "type": "Staple",
+    "Staple": "yes",
+    "category": "Staple"
   },
   "PD09": {
     "id": "PD09",
@@ -116,7 +130,9 @@
       }
     },
     "name": "Double Strike",
-    "Staple": "yes"
+    "type": "Staple",
+    "Staple": "yes",
+    "category": "Staple"
   },
   "PD10": {
     "id": "PD10",
@@ -129,7 +145,9 @@
       }
     },
     "name": "Magic Weapon",
-    "Staple": "yes"
+    "type": "Staple",
+    "Staple": "yes",
+    "category": "Staple"
   },
   "PD11": {
     "id": "PD11",
@@ -142,7 +160,9 @@
       }
     },
     "name": "Silence",
-    "Staple": "yes"
+    "type": "Staple",
+    "Staple": "yes",
+    "category": "Staple"
   },
   "PD12": {
     "id": "PD12",
@@ -155,6 +175,8 @@
       }
     },
     "name": "Augury",
-    "Staple": "yes"
+    "type": "Staple",
+    "Staple": "yes",
+    "category": "Staple"
   }
 }
