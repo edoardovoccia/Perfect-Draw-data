@@ -5,12 +5,14 @@
     "backgrounds": [],
     "decksUrl": ""
   },
+  "customHelp": "",
   "cardRotation": 45,
   "cards": {
     "dataUrl": "https://raw.githubusercontent.com/edoardovoccia/Perfect-Draw-data/refs/heads/main/Perfect%20Draw%20Staples.json",
     "cardBack": "https://i.imgur.com/m5XiqFX.jpeg"
   },
   "deckBuilding": {
+    "categories": ["Staple", "Main Deck", "Created Card"],
     "mainFilters": ["Staple", "Created Card"],
     "formats": [
       {
@@ -28,7 +30,7 @@
   "gameplay": {
     "Standard": {
       "mulligan": {
-        "startingHandSize": 2,
+        "startingHandSize": "2",
         "drawNewHand": false,
         "putSelectionAtBottom": false,
         "drawNewSelectedCards": false
@@ -36,37 +38,45 @@
       "newTurn": {
         "drawOnStart": false,
         "sharedTurn": false,
-        "drawPerTurn": 0
+        "firstPlayerTokenName": "",
+        "drawPerTurn": "0"
       },
+      "defaultNotes": "",
       "tokens": [
         { "name": "Weak Warrior", "image": "https://i.imgur.com/orojBLO.png" },
         { "name": "Normal Warrior", "image": "https://i.imgur.com/C7Kggmx.jpeg" },
         { "name": "Strong Warrior", "image": "https://i.imgur.com/HHWkmR7.png" }
       ],
-      "countersStartingValues": [1],
+      "countersStartingValues": ["1"],
+      "hideFacedDownCards": false,
       "sections": {
         "customSections": ["Battlefield"],
-        "sectionsDict": {
-          "Battlefield": {
-            "title": "Battlefield",
-            "height": "BIG",
-            "alignment": "CENTER"
-          }
-        },
         "layout": {
           "direction": "row",
-          "content": [
-            "Hand",
-            "Deck",
-            "Battlefield",
-            "Discard"
-          ]
+          "isSymetricalForOpponents": false,
+          "content": ["Hand", "Deck", "Battlefield", "Discard"]
         },
-        "categoriesAlreadyOnBoard": [],
+        "categoriesAlreadyOnBoard": ["Staple", "Created Card"],
         "autoPlayFromHand": {
           "Staple": "Battlefield",
           "Created Card": "Battlefield",
           "Main Deck": "Battlefield"
+        },
+        "autoPlayFromStack": {
+          "Staple": "Battlefield",
+          "Created Card": "Battlefield",
+          "Main Deck": "Battlefield"
+        },
+        "sectionsDict": {
+          "Hand": { "title": "Hand", "height": "MEDIUM", "alignment": "CENTER" },
+          "Deck": { "title": "Deck", "height": "MEDIUM", "alignment": "CENTER" },
+          "Discard": { "title": "Discard", "height": "MEDIUM", "alignment": "CENTER" },
+          "Battlefield": {
+            "title": "Battlefield",
+            "height": "BIG",
+            "alignment": "CENTER",
+            "noAutoPayTo": "true"
+          }
         }
       }
     }
