@@ -11,31 +11,52 @@
     "dataUrl": "https://raw.githubusercontent.com/edoardovoccia/Perfect-Draw-data/refs/heads/main/Perfect%20Draw%20Staples.json",
     "cardBack": "https://i.imgur.com/m5XiqFX.jpeg"
   },
-"deckBuilding": {
-    "mainFilters": ["Staple", "Created Card"],
+  "deckBuilding": {
+    "categories": [
+      "Staple",
+      "Main Deck",
+      "Created Card"
+    ],
+    "mainFilters": [
+      "Staple",
+      "Created Card"
+    ],
     "formats": [
       {
         "title": "Standard",
         "gameplay": "Standard",
-        "customCategories": ["Staple", "Main Deck", "Created Card"],
+        "customCategories": [
+          "Staple",
+          "Main Deck",
+          "Created Card"
+        ],
         "sections": [
           {
             "title": "Staple",
-            "categories": ["Staple"],
+            "categories": [
+              "Staple"
+            ],
             "min": 0,
-            "max": 100
+            "max": 100,
+            "count": 0
           },
           {
             "title": "Main Deck",
-            "categories": ["Main Deck"],
+            "categories": [
+              "Main Deck"
+            ],
             "min": 0,
-            "max": 100
+            "max": 100,
+            "count": 0
           },
           {
             "title": "Created Card",
-            "categories": ["Created Card"],
+            "categories": [
+              "Created Card"
+            ],
             "min": 0,
-            "max": 100
+            "max": 100,
+            "count": 0
           }
         ]
       }
@@ -88,14 +109,25 @@
         "layout": {
           "direction": "row",
           "isSymetricalForOpponents": false,
-          "content": []
+          "content": [
+            "Battlefield"
+          ]
         },
         "categoriesAlreadyOnBoard": [
           "Staple",
-          "Created Card"
+          "Created Card",
+          "Main Deck"
         ],
-        "autoPlayFromHand": {},
-        "autoPlayFromStack": {},
+        "autoPlayFromHand": {
+          "Staple": "Battlefield",
+          "Created Card": "Battlefield",
+          "Main Deck": "Battlefield"
+        },
+        "autoPlayFromStack": {
+          "Staple": "Battlefield",
+          "Created Card": "Battlefield",
+          "Main Deck": "Battlefield"
+        },
         "sectionsDict": {
           "Battlefield": {
             "title": "Battlefield",
