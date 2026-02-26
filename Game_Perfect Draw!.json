@@ -46,19 +46,19 @@
       "tokens": [
         {
           "name": "Weak Warrior",
-          "image": "https://i.imgur.com/orojBLO.png",
+          "url": "https://i.imgur.com/orojBLO.png",
           "isUnique": false,
           "leavesAtEndOfTurn": false
         },
         {
           "name": "Normal Warrior",
-          "image": "https://i.imgur.com/C7Kggmx.jpeg",
+          "url": "https://i.imgur.com/C7Kggmx.jpeg",
           "isUnique": false,
           "leavesAtEndOfTurn": false
         },
         {
           "name": "Strong Warrior",
-          "image": "https://i.imgur.com/HHWkmR7.png",
+          "url": "https://i.imgur.com/HHWkmR7.png",
           "isUnique": false,
           "leavesAtEndOfTurn": false
         }
