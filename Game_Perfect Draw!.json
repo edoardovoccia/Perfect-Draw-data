@@ -12,17 +12,38 @@
     "cardBack": "https://i.imgur.com/m5XiqFX.jpeg"
   },
   "deckBuilding": {
-    "categories": ["Staple", "Main Deck", "Created Card"],
-    "mainFilters": ["Staple", "Created Card"],
+    "mainFilters": [
+      "Staple",
+      "Created Card"
+    ],
     "formats": [
       {
         "title": "Standard",
         "gameplay": "Standard",
-        "customCategories": ["Staple", "Main Deck", "Created Card"],
+        "customCategories": [
+          "Staple",
+          "Main Deck",
+          "Created Card"
+        ],
         "sections": [
-          { "title": "Staple", "categories": ["Staple"], "min": 0, "max": 100 },
-          { "title": "Main Deck", "categories": ["Main Deck"], "min": 0, "max": 100 },
-          { "title": "Created Card", "categories": ["Created Card"], "min": 0, "max": 100 }
+          {
+            "title": "Staple",
+            "categories": ["Staple"],
+            "min": 0,
+            "max": 100
+          },
+          {
+            "title": "Main Deck",
+            "categories": ["Main Deck"],
+            "min": 0,
+            "max": 100
+          },
+          {
+            "title": "Created Card",
+            "categories": ["Created Card"],
+            "min": 0,
+            "max": 100
+          }
         ]
       }
     ]
@@ -41,30 +62,38 @@
         "drawPerTurn": 0
       },
       "tokens": [
-        { "name": "Weak Warrior", "image": "https://i.imgur.com/orojBLO.png" },
-        { "name": "Normal Warrior", "image": "https://i.imgur.com/C7Kggmx.jpeg" },
-        { "name": "Strong Warrior", "image": "https://i.imgur.com/HHWkmR7.png" }
+        {
+          "name": "Weak Warrior",
+          "image": "https://i.imgur.com/orojBLO.png"
+        },
+        {
+          "name": "Normal Warrior",
+          "image": "https://i.imgur.com/C7Kggmx.jpeg"
+        },
+        {
+          "name": "Strong Warrior",
+          "image": "https://i.imgur.com/HHWkmR7.png"
+        }
       ],
       "countersStartingValues": [1],
       "sections": {
         "customSections": ["Battlefield"],
-        "layout": {
-          "direction": "row",
-          "content": ["Battlefield"]
-        },
-        "categoriesAlreadyOnBoard": ["Staple", "Created Card", "Main Deck"],
-        "autoPlayFromHand": {
-          "Staple": "Battlefield",
-          "Created Card": "Battlefield",
-          "Main Deck": "Battlefield"
-        },
         "sectionsDict": {
           "Battlefield": {
             "title": "Battlefield",
             "height": "BIG",
-            "alignment": "CENTER",
-            "noAutoPayTo": true
+            "alignment": "CENTER"
           }
+        },
+        "layout": {
+          "direction": "row",
+          "content": ["Battlefield"]
+        },
+        "categoriesAlreadyOnBoard": [],
+        "autoPlayFromHand": {
+          "Staple": "Battlefield",
+          "Created Card": "Battlefield",
+          "Main Deck": "Battlefield"
         }
       }
     }
