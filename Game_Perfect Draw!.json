@@ -12,7 +12,6 @@
     "cardBack": "https://i.imgur.com/m5XiqFX.jpeg"
   },
   "deckBuilding": {
-    "categories": ["Staple", "Main Deck", "Created Card"],
     "mainFilters": ["Staple", "Created Card"],
     "formats": [
       {
@@ -30,6 +29,7 @@
   "gameplay": {
     "Standard": {
       "mulligan": {
+        "info": "",
         "startingHandSize": "2",
         "drawNewHand": false,
         "putSelectionAtBottom": false,
@@ -43,9 +43,9 @@
       },
       "defaultNotes": "",
       "tokens": [
-        { "name": "Weak Warrior", "image": "https://i.imgur.com/orojBLO.png" },
-        { "name": "Normal Warrior", "image": "https://i.imgur.com/C7Kggmx.jpeg" },
-        { "name": "Strong Warrior", "image": "https://i.imgur.com/HHWkmR7.png" }
+        { "name": "Weak Warrior", "image": "https://i.imgur.com/orojBLO.png", "isUnique": false, "leavesAtEndOfTurn": false },
+        { "name": "Normal Warrior", "image": "https://i.imgur.com/C7Kggmx.jpeg", "isUnique": false, "leavesAtEndOfTurn": false },
+        { "name": "Strong Warrior", "image": "https://i.imgur.com/HHWkmR7.png", "isUnique": false, "leavesAtEndOfTurn": false }
       ],
       "countersStartingValues": ["1"],
       "hideFacedDownCards": false,
@@ -62,20 +62,71 @@
           "Created Card": "Battlefield",
           "Main Deck": "Battlefield"
         },
-        "autoPlayFromStack": {
-          "Staple": "Battlefield",
-          "Created Card": "Battlefield",
-          "Main Deck": "Battlefield"
-        },
+        "autoPlayFromStack": {},
         "sectionsDict": {
-          "Hand": { "title": "Hand", "height": "MEDIUM", "alignment": "CENTER" },
-          "Deck": { "title": "Deck", "height": "MEDIUM", "alignment": "CENTER" },
-          "Discard": { "title": "Discard", "height": "MEDIUM", "alignment": "CENTER" },
+          "Hand": {
+            "title": "Hand",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": "false",
+            "isHorizontalAllowed": false,
+            "displayedTitle": "",
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "noQuickActions": false
+          },
+          "Deck": {
+            "title": "Deck",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": "true",
+            "isHorizontalAllowed": false,
+            "displayedTitle": "",
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "noQuickActions": false
+          },
+          "Discard": {
+            "title": "Discard",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": "false",
+            "isHorizontalAllowed": false,
+            "displayedTitle": "",
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "noQuickActions": false
+          },
           "Battlefield": {
             "title": "Battlefield",
+            "isHidden": "no",
             "height": "BIG",
             "alignment": "CENTER",
-            "noAutoPayTo": "true"
+            "opponentAlignment": false,
+            "noAutoPayTo": "true",
+            "isHorizontalAllowed": false,
+            "displayedTitle": "",
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "noQuickActions": false
           }
         }
       }
