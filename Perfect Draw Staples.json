@@ -184,9 +184,9 @@
     "isToken": false,
     "face": {
       "front": {
-        "name": "",
+        "name": "Created Card",
         "type": "Created Card",
-        "image": "https://i.imgur.com/mlLwbQJ.png",
+        "image": "https://i.imgur.com/mlLwbQJ.png"
       }
     },
     "name": "Created Card",
