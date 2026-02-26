@@ -33,27 +33,21 @@
         "sections": [
           {
             "title": "Staple",
-            "categories": [
-              "Staple"
-            ],
+            "categories": ["Staple"],
             "min": 0,
             "max": 100,
             "count": 0
           },
           {
             "title": "Main Deck",
-            "categories": [
-              "Main Deck"
-            ],
+            "categories": ["Main Deck"],
             "min": 0,
             "max": 100,
             "count": 0
           },
           {
             "title": "Created Card",
-            "categories": [
-              "Created Card"
-            ],
+            "categories": ["Created Card"],
             "min": 0,
             "max": 100,
             "count": 0
@@ -98,26 +92,16 @@
           "leavesAtEndOfTurn": false
         }
       ],
-      "countersStartingValues": [
-        "1"
-      ],
+      "countersStartingValues": ["1"],
       "hideFacedDownCards": false,
       "sections": {
-        "customSections": [
-          "Battlefield"
-        ],
+        "customSections": ["Battlefield"],
         "layout": {
           "direction": "row",
           "isSymetricalForOpponents": false,
-          "content": [
-            "Battlefield"
-          ]
+          "content": ["Battlefield"]
         },
-        "categoriesAlreadyOnBoard": [
-          "Staple",
-          "Created Card",
-          "Main Deck"
-        ],
+        "categoriesAlreadyOnBoard": ["Staple", "Created Card", "Main Deck"],
         "autoPlayFromHand": {
           "Staple": "Battlefield",
           "Created Card": "Battlefield",
