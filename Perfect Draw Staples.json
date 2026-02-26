@@ -186,15 +186,12 @@
       "front": {
         "name": "",
         "type": "Created Card",
-        "cost": 0,
         "image": "https://i.imgur.com/mlLwbQJ.png",
-        "isHorizontal": false
       }
     },
     "name": "Created Card",
     "type": "Created Card",
-    "cost": 0,
-    "Created Card": "yes"
+    "Created Card": "yes",
+    "category": "Created Card"
   }
-}
 }
