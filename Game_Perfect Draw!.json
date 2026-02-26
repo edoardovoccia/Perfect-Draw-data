@@ -30,7 +30,6 @@
   "gameplay": {
     "Standard": {
       "mulligan": {
-        "info": "",
         "startingHandSize": 2,
         "drawNewHand": false,
         "putSelectionAtBottom": false,
@@ -39,22 +38,18 @@
       "newTurn": {
         "drawOnStart": false,
         "sharedTurn": false,
-        "firstPlayerTokenName": "",
         "drawPerTurn": 0
       },
-      "defaultNotes": "",
       "tokens": [
-        { "name": "Weak Warrior", "image": "https://i.imgur.com/orojBLO.png", "isUnique": false, "leavesAtEndOfTurn": false },
-        { "name": "Normal Warrior", "image": "https://i.imgur.com/C7Kggmx.jpeg", "isUnique": false, "leavesAtEndOfTurn": false },
-        { "name": "Strong Warrior", "image": "https://i.imgur.com/HHWkmR7.png", "isUnique": false, "leavesAtEndOfTurn": false }
+        { "name": "Weak Warrior", "image": "https://i.imgur.com/orojBLO.png" },
+        { "name": "Normal Warrior", "image": "https://i.imgur.com/C7Kggmx.jpeg" },
+        { "name": "Strong Warrior", "image": "https://i.imgur.com/HHWkmR7.png" }
       ],
       "countersStartingValues": [1],
-      "hideFacedDownCards": false,
       "sections": {
         "customSections": ["Battlefield"],
         "layout": {
           "direction": "row",
-          "isSymetricalForOpponents": false,
           "content": ["Battlefield"]
         },
         "categoriesAlreadyOnBoard": ["Staple", "Created Card", "Main Deck"],
@@ -63,27 +58,12 @@
           "Created Card": "Battlefield",
           "Main Deck": "Battlefield"
         },
-        "autoPlayFromStack": {
-          "Staple": "Battlefield",
-          "Created Card": "Battlefield",
-          "Main Deck": "Battlefield"
-        },
         "sectionsDict": {
           "Battlefield": {
             "title": "Battlefield",
-            "isHidden": "no",
             "height": "BIG",
             "alignment": "CENTER",
-            "opponentAlignment": false,
-            "noAutoPayTo": true,
-            "isHorizontalAllowed": false,
-            "displayedTitle": "",
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "noQuickActions": false
+            "noAutoPayTo": true
           }
         }
       }
