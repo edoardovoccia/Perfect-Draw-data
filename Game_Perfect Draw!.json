@@ -54,7 +54,7 @@
         "layout": {
           "direction": "row",
           "isSymetricalForOpponents": false,
-          "content": ["Hand", "Deck", "Battlefield", "Discard"]
+          "content": ["Battlefield"]
         },
         "categoriesAlreadyOnBoard": ["Staple", "Created Card"],
         "autoPlayFromHand": {
@@ -64,54 +64,6 @@
         },
         "autoPlayFromStack": {},
         "sectionsDict": {
-          "Hand": {
-            "title": "Hand",
-            "isHidden": "no",
-            "height": "MEDIUM",
-            "alignment": "CENTER",
-            "opponentAlignment": false,
-            "noAutoPayTo": "false",
-            "isHorizontalAllowed": false,
-            "displayedTitle": "",
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "noQuickActions": false
-          },
-          "Deck": {
-            "title": "Deck",
-            "isHidden": "no",
-            "height": "MEDIUM",
-            "alignment": "CENTER",
-            "opponentAlignment": false,
-            "noAutoPayTo": "true",
-            "isHorizontalAllowed": false,
-            "displayedTitle": "",
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "noQuickActions": false
-          },
-          "Discard": {
-            "title": "Discard",
-            "isHidden": "no",
-            "height": "MEDIUM",
-            "alignment": "CENTER",
-            "opponentAlignment": false,
-            "noAutoPayTo": "false",
-            "isHorizontalAllowed": false,
-            "displayedTitle": "",
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "noQuickActions": false
-          },
           "Battlefield": {
             "title": "Battlefield",
             "isHidden": "no",
