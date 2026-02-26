@@ -69,8 +69,7 @@
       "hideFacedDownCards": false,
       "sections": {
         "customSections": [
-          "Battlefield",
-          "Graveyard"
+          "Battlefield"
         ],
         "layout": {
           "direction": "column",
@@ -81,42 +80,6 @@
               "style": {
                 "Width": "77vw"
               }
-            },
-            {
-              "direction": "row",
-              "style": {
-                "Width": "vw"
-              },
-              "content": [
-                {
-                  "section": "Hand",
-                  "style": {
-                    "Width": "65vw"
-                  }
-                },
-                {
-                  "direction": "row",
-                  "style": {
-                    "Width": "5vw"
-                  },
-                  "content": [
-                    {
-                      "section": "Deck",
-                      "style": {
-                        "Width": "1vw"
-                      }
-                    },
-                    {
-                      "section": "Graveyard",
-                      "style": {
-                        "Width": "1vw"
-                      }
-                    }
-                  ],
-                  "isSymetricalForOpponents": false
-                }
-              ],
-              "isSymetricalForOpponents": false
             }
           ]
         },
@@ -136,54 +99,6 @@
             "isHidden": "no",
             "height": "BIG",
             "alignment": "CENTER",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "displayedTitle": "",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "Hand": {
-            "title": "Hand",
-            "isHidden": "opponent-only",
-            "height": "MEDIUM",
-            "alignment": "CENTER",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "displayedTitle": "",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "Graveyard": {
-            "title": "Graveyard",
-            "isHidden": "no",
-            "height": "SMALL",
-            "alignment": "END",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "displayedTitle": "",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "Deck": {
-            "title": "Deck",
-            "isHidden": "yes",
-            "height": "SMALL",
-            "alignment": "END",
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": false,
