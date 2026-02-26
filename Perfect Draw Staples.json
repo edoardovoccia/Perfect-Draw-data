@@ -193,5 +193,53 @@
     "type": "Created Card",
     "Created Card": "yes",
     "category": "Created Card"
+  },
+  "T01": {
+    "id": "T01",
+    "isToken": true,
+    "face": {
+      "front": {
+        "name": "",
+        "type": false,
+        "cost": 0,
+        "image": "https://i.imgur.com/orojBLO.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Weak Warrior",
+    "type": false,
+    "cost": 0
+  },
+  "T02": {
+    "id": "T02",
+    "isToken": true,
+    "face": {
+      "front": {
+        "name": "",
+        "type": false,
+        "cost": 0,
+        "image": "https://i.imgur.com/C7Kggmx.jpeg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Normal Warrior",
+    "type": false,
+    "cost": 0
+  },
+  "T03": {
+    "id": "T03",
+    "isToken": true,
+    "face": {
+      "front": {
+        "name": "",
+        "type": false,
+        "cost": 0,
+        "image": "https://i.imgur.com/HHWkmR7.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Strong Warrior",
+    "type": false,
+    "cost": 0
   }
 }
