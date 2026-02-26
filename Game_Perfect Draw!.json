@@ -12,16 +12,17 @@
     "cardBack": "https://i.imgur.com/m5XiqFX.jpeg"
   },
   "deckBuilding": {
-    "mainFilters": ["Staple", "Created Card"],
+    "mainFilters": [
+      ""
+    ],
     "formats": [
       {
         "title": "Standard",
         "gameplay": "Standard",
-        "customCategories": ["Staple", "Main Deck", "Created Card"],
-        "sections": [
-          { "title": "Staple", "categories": ["Staple"], "min": 0, "max": 100 },
-          { "title": "Main Deck", "categories": ["Main Deck"], "min": 0, "max": 100 },
-          { "title": "Created Card", "categories": ["Created Card"], "min": 0, "max": 100 }
+        "customCategories": [
+          "Staple",
+          "Main Deck",
+          "Created Card"
         ]
       }
     ]
@@ -43,24 +44,90 @@
       },
       "defaultNotes": "",
       "tokens": [
-        { "name": "Weak Warrior", "image": "https://i.imgur.com/orojBLO.png", "isUnique": false, "leavesAtEndOfTurn": false },
-        { "name": "Normal Warrior", "image": "https://i.imgur.com/C7Kggmx.jpeg", "isUnique": false, "leavesAtEndOfTurn": false },
-        { "name": "Strong Warrior", "image": "https://i.imgur.com/HHWkmR7.png", "isUnique": false, "leavesAtEndOfTurn": false }
+        {
+          "name": "Weak Warrior",
+          "image": "https://i.imgur.com/orojBLO.png",
+          "isUnique": false,
+          "leavesAtEndOfTurn": false
+        },
+        {
+          "name": "Normal Warrior",
+          "image": "https://i.imgur.com/C7Kggmx.jpeg",
+          "isUnique": false,
+          "leavesAtEndOfTurn": false
+        },
+        {
+          "name": "Strong Warrior",
+          "image": "https://i.imgur.com/HHWkmR7.png",
+          "isUnique": false,
+          "leavesAtEndOfTurn": false
+        }
       ],
-      "countersStartingValues": ["1"],
+      "countersStartingValues": [
+        "-1"
+      ],
       "hideFacedDownCards": false,
       "sections": {
-        "customSections": ["Battlefield"],
+        "customSections": [
+          "Battlefield",
+          "Graveyard"
+        ],
         "layout": {
-          "direction": "row",
+          "direction": "column",
           "isSymetricalForOpponents": false,
-          "content": ["Battlefield"]
+          "content": [
+            {
+              "section": "Battlefield",
+              "style": {
+                "Width": "77vw"
+              }
+            },
+            {
+              "direction": "row",
+              "style": {
+                "Width": "vw"
+              },
+              "content": [
+                {
+                  "section": "Hand",
+                  "style": {
+                    "Width": "65vw"
+                  }
+                },
+                {
+                  "direction": "row",
+                  "style": {
+                    "Width": "5vw"
+                  },
+                  "content": [
+                    {
+                      "section": "Deck",
+                      "style": {
+                        "Width": "1vw"
+                      }
+                    },
+                    {
+                      "section": "Graveyard",
+                      "style": {
+                        "Width": "1vw"
+                      }
+                    }
+                  ],
+                  "isSymetricalForOpponents": false
+                }
+              ],
+              "isSymetricalForOpponents": false
+            }
+          ]
         },
-        "categoriesAlreadyOnBoard": ["Staple", "Created Card"],
+        "categoriesAlreadyOnBoard": [
+          "Staple",
+          "Created Card"
+        ],
         "autoPlayFromHand": {
-          "Staple": "Battlefield",
-          "Created Card": "Battlefield",
-          "Main Deck": "Battlefield"
+          "Warrior": "Battlefield",
+          "Item": "Battlefield",
+          "Invocation": "Battlefield"
         },
         "autoPlayFromStack": {},
         "sectionsDict": {
@@ -70,15 +137,63 @@
             "height": "BIG",
             "alignment": "CENTER",
             "opponentAlignment": false,
-            "noAutoPayTo": "true",
+            "noAutoPayTo": false,
             "isHorizontalAllowed": false,
             "displayedTitle": "",
+            "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": false,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "noQuickActions": false
+            "showHiddenCardInHistory": false
+          },
+          "Hand": {
+            "title": "Hand",
+            "isHidden": "opponent-only",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Graveyard": {
+            "title": "Graveyard",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "END",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Deck": {
+            "title": "Deck",
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "END",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
           }
         }
       }
