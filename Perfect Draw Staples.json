@@ -241,5 +241,73 @@
     "name": "Strong Warrior",
     "type": false,
     "cost": 0
+  },
+  "FRA01": {
+    "id": "FRA01",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "",
+        "type": "Main Deck",
+        "cost": 0,
+        "image": "https://i.imgur.com/1Rna7RJ.jpeg",
+        "isHorizontal": false
+      }
+    },
+    "name": "The Polity  at World's End",
+    "type": "Main Deck",
+    "cost": 0,
+    "Main Deck": ""
+  },
+  "FRA02": {
+    "id": "FRA02",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "",
+        "type": "Main Deck",
+        "cost": 0,
+        "image": "https://i.imgur.com/4E7QMf6.jpeg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Dreadknight, Icon of Fear",
+    "type": "Main Deck",
+    "cost": 0,
+    "Main Deck": ""
+  },
+  "FRA03": {
+    "id": "FRA03",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "",
+        "type": "Main Deck",
+        "cost": 0,
+        "image": "https://i.imgur.com/giKoirV.jpeg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Lodestar, Icon of Admiration",
+    "type": "Main Deck",
+    "cost": 0,
+    "Main Deck": ""
+  },
+  "FRA04": {
+    "id": "FRA04",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "",
+        "type": "Main Deck",
+        "cost": 0,
+        "image": "https://i.imgur.com/g88J1UD.jpeg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Runner, Icon of Rush",
+    "type": "Main Deck",
+    "cost": 0,
+    "Main Deck": ""
   }
 }
