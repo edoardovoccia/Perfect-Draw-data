@@ -178,5 +178,23 @@
     "type": "Staple",
     "Staple": "yes",
     "category": "Staple"
+  },
+  "PD13": {
+    "id": "PD13",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "",
+        "type": "Created Card",
+        "cost": 0,
+        "image": "https://i.imgur.com/mlLwbQJ.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Created Card",
+    "type": "Created Card",
+    "cost": 0,
+    "Created Card": "yes"
   }
+}
 }
