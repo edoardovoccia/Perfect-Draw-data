@@ -12,46 +12,17 @@
     "cardBack": "https://i.imgur.com/m5XiqFX.jpeg"
   },
   "deckBuilding": {
-    "categories": [
-      "Staple",
-      "Main Deck",
-      "Created Card"
-    ],
-    "mainFilters": [
-      "Staple",
-      "Created Card"
-    ],
+    "categories": ["Staple", "Main Deck", "Created Card"],
+    "mainFilters": ["Staple", "Created Card"],
     "formats": [
       {
         "title": "Standard",
         "gameplay": "Standard",
-        "customCategories": [
-          "Staple",
-          "Main Deck",
-          "Created Card"
-        ],
+        "customCategories": ["Staple", "Main Deck", "Created Card"],
         "sections": [
-          {
-            "title": "Staple",
-            "categories": ["Staple"],
-            "min": 0,
-            "max": 100,
-            "count": 0
-          },
-          {
-            "title": "Main Deck",
-            "categories": ["Main Deck"],
-            "min": 0,
-            "max": 100,
-            "count": 0
-          },
-          {
-            "title": "Created Card",
-            "categories": ["Created Card"],
-            "min": 0,
-            "max": 100,
-            "count": 0
-          }
+          { "title": "Staple", "categories": ["Staple"], "min": 0, "max": 100 },
+          { "title": "Main Deck", "categories": ["Main Deck"], "min": 0, "max": 100 },
+          { "title": "Created Card", "categories": ["Created Card"], "min": 0, "max": 100 }
         ]
       }
     ]
@@ -60,7 +31,7 @@
     "Standard": {
       "mulligan": {
         "info": "",
-        "startingHandSize": "2",
+        "startingHandSize": 2,
         "drawNewHand": false,
         "putSelectionAtBottom": false,
         "drawNewSelectedCards": false
@@ -69,30 +40,15 @@
         "drawOnStart": false,
         "sharedTurn": false,
         "firstPlayerTokenName": "",
-        "drawPerTurn": "0"
+        "drawPerTurn": 0
       },
       "defaultNotes": "",
       "tokens": [
-        {
-          "name": "Weak Warrior",
-          "image": "https://i.imgur.com/orojBLO.png",
-          "isUnique": false,
-          "leavesAtEndOfTurn": false
-        },
-        {
-          "name": "Normal Warrior",
-          "image": "https://i.imgur.com/C7Kggmx.jpeg",
-          "isUnique": false,
-          "leavesAtEndOfTurn": false
-        },
-        {
-          "name": "Strong Warrior",
-          "image": "https://i.imgur.com/HHWkmR7.png",
-          "isUnique": false,
-          "leavesAtEndOfTurn": false
-        }
+        { "name": "Weak Warrior", "image": "https://i.imgur.com/orojBLO.png", "isUnique": false, "leavesAtEndOfTurn": false },
+        { "name": "Normal Warrior", "image": "https://i.imgur.com/C7Kggmx.jpeg", "isUnique": false, "leavesAtEndOfTurn": false },
+        { "name": "Strong Warrior", "image": "https://i.imgur.com/HHWkmR7.png", "isUnique": false, "leavesAtEndOfTurn": false }
       ],
-      "countersStartingValues": ["1"],
+      "countersStartingValues": [1],
       "hideFacedDownCards": false,
       "sections": {
         "customSections": ["Battlefield"],
@@ -119,7 +75,7 @@
             "height": "BIG",
             "alignment": "CENTER",
             "opponentAlignment": false,
-            "noAutoPayTo": "true",
+            "noAutoPayTo": true,
             "isHorizontalAllowed": false,
             "displayedTitle": "",
             "enterTapped": false,
