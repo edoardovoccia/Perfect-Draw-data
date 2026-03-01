@@ -309,5 +309,89 @@
     "type": "Main Deck",
     "cost": 0,
     "Main Deck": ""
+  },
+  "DS01": {
+    "id": "DS01",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "",
+        "type": "Main Deck",
+        "cost": 0,
+        "image": "https://i.imgur.com/QUjYdcI.jpeg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Bar's Closed!!!",
+    "type": "Main Deck",
+    "cost": 0
+  },
+  "DS02": {
+    "id": "DS02",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "",
+        "type": "Main Deck",
+        "cost": 0,
+        "image": "https://i.imgur.com/K5nCS1b.jpeg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Booze",
+    "type": "Main Deck",
+    "cost": 0,
+    "Main Deck": ""
+  },
+  "DS03": {
+    "id": "DS03",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "",
+        "type": "Main Deck",
+        "cost": 0,
+        "image": "https://i.imgur.com/km5MYrH.jpeg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Drunk Star Booze Protector",
+    "type": "Main Deck",
+    "cost": 0,
+    "Main Deck": ""
+  },
+  "DS04": {
+    "id": "DS04",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "",
+        "type": "Main Deck",
+        "cost": 0,
+        "image": "https://i.imgur.com/kIP8Vy7.jpeg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Drunk Star Booze Collector",
+    "type": "Main Deck",
+    "cost": 0,
+    "Main Deck": ""
+  },
+  "DS05": {
+    "id": "DS05",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "",
+        "type": "Main Deck",
+        "cost": 0,
+        "image": "https://i.imgur.com/YZgX4K9.jpeg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Super Drunk Star",
+    "type": "Main Deck",
+    "cost": 0,
+    "Main Deck": ""
   }
 }
