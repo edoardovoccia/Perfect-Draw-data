@@ -393,22 +393,5 @@
     "type": "Main Deck",
     "cost": 0,
     "Main Deck": ""
-  },
-  "DS06": {
-    "id": "DS06",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "",
-        "type": "Main Deck",
-        "cost": 0,
-        "image": "https://i.imgur.com/r7vkVvA.jpeg",
-        "isHorizontal": false
-      }
-    },
-    "name": "More Booze!!!",
-    "type": "Main Deck",
-    "cost": 0,
-    "Main Deck": ""
- }
+  }
 }
