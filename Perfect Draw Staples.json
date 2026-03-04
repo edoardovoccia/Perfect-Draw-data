@@ -409,5 +409,111 @@
     "name": "More Booze!!!",
     "type": "Main Deck",
     "cost": 0
+  },
+  "FEDE01": {
+    "id": "FEDE01",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "",
+        "type": "Main Deck",
+        "cost": 0,
+        "image": "https://i.imgur.com/MRkkoXb.jpeg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Cheapcook Mistery Pot",
+    "type": "Main Deck",
+    "cost": 0
+  },
+  "FEDE02": {
+    "id": "FEDE02",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "",
+        "type": "Main Deck",
+        "cost": 0,
+        "image": "https://i.imgur.com/YQVBsHo.jpeg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Cheapcook Salty Ingredients",
+    "type": "Main Deck",
+    "cost": 0,
+    "Main Deck": "",
+    "Staple": ""
+  },
+  "FEDE03": {
+    "id": "FEDE03",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "",
+        "type": "Main Deck",
+        "cost": 0,
+        "image": "https://i.imgur.com/bTnR1Tp.jpeg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Cheapcook Sweet Ingredients",
+    "type": "Main Deck",
+    "cost": 0,
+    "Main Deck": "",
+    "Staple": ""
+  },
+  "FEDE04": {
+    "id": "FEDE04",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "",
+        "type": "Main Deck",
+        "cost": 0,
+        "image": "https://i.imgur.com/U3INZ2G.jpeg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Cheapcook Ultimate Recipe",
+    "type": "Main Deck",
+    "cost": 0,
+    "Main Deck": "",
+    "Staple": ""
+  },
+  "FEDE05": {
+    "id": "FEDE05",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "",
+        "type": "Staple",
+        "cost": 0,
+        "image": "https://i.imgur.com/fyqTjOe.jpeg",
+        "isHorizontal": false
+      }
+    },
+    "name": "PayDay",
+    "type": "Staple",
+    "cost": 0,
+    "Main Deck": "",
+    "Staple": ""
+  },
+  "FRA05": {
+    "id": "FRA05",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "",
+        "type": "Staple",
+        "cost": 0,
+        "image": "https://i.imgur.com/juyKDrc.jpeg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Survive Another Day",
+    "type": "Staple",
+    "cost": 0,
+    "Main Deck": "",
+    "Staple": ""
   }
 }
