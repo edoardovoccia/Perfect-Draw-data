@@ -667,5 +667,100 @@
     "type": "Main Deck",
     "cost": 0,
     "Main Deck": ""
+  },
+   "PAOLO01": {
+    "id": "PAOLO01",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "",
+        "type": "Main Deck",
+        "cost": 0,
+        "image": "https://i.imgur.com/aOnqiUT.jpeg",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "Main Deck",
+        "cost": 0,
+        "image": "https://i.imgur.com/gYxI2Qk.jpeg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Faithful, the Fortress",
+    "type": "Main Deck",
+    "cost": 0
+  },
+  "PAOLO02": {
+    "id": "PAOLO02",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "",
+        "type": "Main Deck",
+        "cost": 0,
+        "image": "https://i.imgur.com/lDcF1fh.jpeg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Squi-rel of the Faithful",
+    "type": "Main Deck",
+    "cost": 0,
+    "Main Deck": "",
+    "Staple": ""
+  },
+  "PAOLO03": {
+    "id": "PAOLO03",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "",
+        "type": "Main Deck",
+        "cost": 0,
+        "image": "https://i.imgur.com/fiKTGC3.jpeg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Sword of the Faithful",
+    "type": "Main Deck",
+    "cost": 0,
+    "Main Deck": "",
+    "Staple": ""
+  },
+  "PAOLO04": {
+    "id": "PAOLO04",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "",
+        "type": "Main Deck",
+        "cost": 0,
+        "image": "https://i.imgur.com/i47nOdo.jpeg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Shield of the Faithful",
+    "type": "Main Deck",
+    "cost": 0,
+    "Main Deck": "",
+    "Staple": ""
+  },
+  "PAOLO05": {
+    "id": "PAOLO05",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "",
+        "type": "Staple",
+        "cost": 0,
+        "image": "https://i.imgur.com/FiHSZec.jpeg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Divine Intervention",
+    "type": "Staple",
+    "cost": 0,
+    "Main Deck": "",
+    "Staple": ""
   }
 }
