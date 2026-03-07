@@ -492,7 +492,7 @@
         "isHorizontal": false
       }
     },
-    "name": "PayDay",
+    "name": "Underworld Package",
     "type": "Staple",
     "cost": 0,
     "Main Deck": "",
@@ -515,5 +515,157 @@
     "cost": 0,
     "Main Deck": "",
     "Staple": ""
+  },
+  "DD01": {
+    "id": "DD01",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "",
+        "type": "Main Deck",
+        "cost": 0,
+        "image": "https://i.imgur.com/LCGAoT3.jpeg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Mephisto, the Devil Dealer",
+    "type": "Main Deck",
+    "cost": 0
+  },
+  "DD02": {
+    "id": "DD02",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "",
+        "type": "Main Deck",
+        "cost": 0,
+        "image": "https://i.imgur.com/UIb8QoI.jpeg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Ace of Clubs",
+    "type": "Main Deck",
+    "cost": 0,
+    "Main Deck": ""
+  },
+  "DD03": {
+    "id": "DD03",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "",
+        "type": "Main Deck",
+        "cost": 0,
+        "image": "https://i.imgur.com/WB9nRFI.jpeg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Ace of Diamonds",
+    "type": "Main Deck",
+    "cost": 0,
+    "Main Deck": ""
+  },
+  "DD04": {
+    "id": "DD04",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "",
+        "type": "Main Deck",
+        "cost": 0,
+        "image": "https://i.imgur.com/9cNmf5u.jpeg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Ace of Hearts",
+    "type": "Main Deck",
+    "cost": 0,
+    "Main Deck": ""
+  },
+  "DD05": {
+    "id": "DD05",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "",
+        "type": "Main Deck",
+        "cost": 0,
+        "image": "https://i.imgur.com/giqbGJr.jpeg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Ace of Spades",
+    "type": "Main Deck",
+    "cost": 0,
+    "Main Deck": ""
+  },
+  "DD06": {
+    "id": "DD06",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "",
+        "type": "Main Deck",
+        "cost": 0,
+        "image": "https://i.imgur.com/WilGby9.jpeg",
+        "isHorizontal": false
+      }
+    },
+    "name": "The Art of the Deal",
+    "type": "Main Deck",
+    "cost": 0,
+    "Main Deck": ""
+  },
+  "DD07": {
+    "id": "DD07",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "",
+        "type": "Main Deck",
+        "cost": 0,
+        "image": "https://i.imgur.com/kCuiZ89.jpeg",
+        "isHorizontal": false
+      }
+    },
+    "name": "The House Always Wins",
+    "type": "Main Deck",
+    "cost": 0,
+    "Main Deck": ""
+  },
+  "DD08": {
+    "id": "DD08",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "",
+        "type": "Main Deck",
+        "cost": 0,
+        "image": "https://i.imgur.com/kCuiZ89.jpeg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Sleight of Hand",
+    "type": "Main Deck",
+    "cost": 0,
+    "Main Deck": ""
+  },
+  "DS07": {
+    "id": "DS07",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "",
+        "type": "Main Deck",
+        "cost": 0,
+        "image": "https://i.imgur.com/ujHtw0p.jpeg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Keep 'em Coming!",
+    "type": "Main Deck",
+    "cost": 0,
+    "Main Deck": ""
   }
 }
